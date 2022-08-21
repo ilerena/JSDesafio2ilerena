@@ -1,0 +1,28 @@
+#formContacto {
+    border: double #6fd9f3 2px;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(37, 150, 190, 0.6); }
+    #formContacto #h2form {
+        background-color: #6fd9f3;
+        color: #292935;
+        text-align: center;
+        padding: 5px 15px;
+        border-radius: 1em;
+        margin-top: 15px; }
+    #formContacto #idform {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px; }
+    #formContacto #idform input, #formContacto #idform label, #formContacto #idform textarea, #formContacto #idform select {
+        width: 80%; }
+        @media only screen and (min-width: 768px) {
+        #formContacto #idform input, #formContacto #idform label, #formContacto #idform textarea, #formContacto #idform select {
+            width: 300px; } }
+    #formContacto #idform p {
+        color: #6fd9f3; }

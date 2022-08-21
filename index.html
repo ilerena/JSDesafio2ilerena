@@ -5,8 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+
+    <div id="formContacto" class="d-flex justify-content-center mx-auto row margintop30">
+        <h2 id="h2form" class="col-md-6 col-lg-4">Formulario de contacto</h2>
+        <form action="info.php" class="col-md-6 col-lg-4">
+            <fieldset id="idform"  >
+                <input type="text" id="name" placeholder="Nombre y Apellido"><br>
+                <label for="mes"><p>En que mes desea hacer la reserva?</p> </label>
+                                <select name="mes" id="">
+                                    <option value="ene">Enero</option>
+                                    <option value="feb">Febrero</option>
+                                    <option value="mar">Marzo</option>
+                                    <option value="abr">Abril</option>
+                                    <option value="may">Mayo</option>
+                                    <option value="jun">Junio</option>
+                                    <option value="jul">Julio</option>
+                                    <option value="agos">Agosto</option>
+                                    <option value="sept">Septiembre</option>
+                                    <option value="oct">Octubre</option>
+                                    <option value="nov">Noviembre</option>
+                                    <option value="dic">Diciembre</option>
+                                </select><br>
+                <input type="text" id="dias" placeholder="Cuantos dias desea alquilar"><br>
+                <input type="text" id="cantidad" placeholder="Cuantas personas se desean alojar?"><br>                
+                <label for="mensaje"><p>¿Cual es su consulta?</p></label><br> 
+                <textarea name="" id="mensaje" cols="30" rows="10"></textarea> <br>
+                <input type="reset" value="Cancelar">
+                <input type="Submit" value="Enviar Consulta">
+            </fieldset>		
+        </form>
+    </div>
     
 <script src="js.js"></script>
 </body>
